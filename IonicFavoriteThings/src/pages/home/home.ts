@@ -10,5 +10,9 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  
+  setColor(selectedColor: string) {
+    console.log("TODO: Set the color in Firebase to " + selectedColor);
+  }
 
 }
