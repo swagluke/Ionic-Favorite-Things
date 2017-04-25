@@ -10,7 +10,7 @@
   <h2>Favorite Color</h2>
   <ion-grid>
     <ion-row>
-      <ion-col id="box" offset-4 col-4>gray</ion-col>
+      <ion-col id="box" [style.background]="favoriteColor" offset-4 col-4>{{favoriteColor}}</ion-col>
     </ion-row>
 
     <ion-row>
