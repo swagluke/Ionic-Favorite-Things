@@ -37,4 +37,11 @@
 
     </ion-row>
   </ion-grid>
+  <hr>
+
+  <h2>Favorite Number = {{favoriteNumber}}</h2>
+  <button ion-button (click)="changeNumberby(1)">Up</button>
+  <button ion-button (click)="changeNumberby(-1)">Down</button>
+  <button ion-button (click)="setNumberInFirebase(0)">Reset</button>
+
 </ion-content>
